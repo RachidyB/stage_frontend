@@ -1,0 +1,65 @@
+.single {
+    display: flex;
+    width: 100%;
+
+    .singleContainer {
+        flex: 6;
+
+        .top {
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+
+            .left {
+                padding: 20px;
+                -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+                box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+                flex: 1;
+                position: relative;
+
+                .editButtom {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    padding: 5px;
+                    font-size: 12px;
+                    color: #7451f8;
+                    background-color: #7551f818;
+                    cursor: pointer;
+                    border-radius: 0px 0px 0px 5px;
+                }
+
+                .item {
+                    display: flex;
+                    gap: 20px;
+
+                    .itemImg {
+                        width: 400px;
+                        height: 200px;
+                        border-radius: 50%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .right {
+
+                flex: 2;
+            }
+        }
+
+        .bottom {
+            -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+            box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .title {
+            font-size: 16px;
+            color: lightgray;
+            margin-bottom: 20px;
+        }
+    }
+
+}
