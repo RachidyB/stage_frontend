@@ -10,16 +10,13 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
-
 import './style/dark.scss'
 import { useContext } from "react";
-
 import { DarkModeContext } from "./context/darkModeContext";
 import NewC from './pages/newC/NewC'
 import NewS from './pages/newS/NewS'
 import SingleC from './pages/singleC/SingleC'
 import SingleS from './pages/singleS/SingleS'
-
 import ListS from './pages/ListS/ListS'
 
 
